@@ -22,5 +22,5 @@ def get_shop_list_by_dishes(dishes, person_count):
     return dishes_dict
 
 
-
+cook_book = my_cook_book()
 print(get_shop_list_by_dishes(['Омлет','Запеченный картофель'],2))
